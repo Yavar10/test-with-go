@@ -14,4 +14,17 @@ func main()  {
 	for i:=range days{
 		fmt.Println(days[i])
 	}
+
+	for index,day:=range days{
+		fmt.Println(index," ",day)
+	}
+
+	for _,day:=range days{
+		fmt.Println(day)
+	}
+	hday:=1
+	for hday<10 {
+		fmt.Println("yes")
+		hday++
+	}
 }
